@@ -2,6 +2,27 @@
 
 **Watch with purpose. Learn without distraction.**
 
+[![Build](https://img.shields.io/badge/build-production%20ready-brightgreen)](./)
+[![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-blue?logo=googlechrome&logoColor=white)](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3)
+[![TypeScript](https://img.shields.io/badge/TypeScript-enabled-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Tests](https://img.shields.io/badge/tests-Vitest-6E9F18?logo=vitest&logoColor=white)](./)
+[![Privacy First](https://img.shields.io/badge/privacy-local--only-success?logo=privacypass&logoColor=white)](#-privacy-first)
+[![License: Non-Commercial](https://img.shields.io/badge/license-non--commercial-orange)](./LICENSE)
+[![Visitors](https://visitor-badge.laobi.icu/badge?page_id=mdsuzon-hub.focustube&left_color=gray&right_color=00b87a)](https://github.com/mdsuzon-hub/focustube)
+
+<p align="center">
+  <a href="https://github.com/mdsuzon-hub/focustube">
+    <img src="https://img.shields.io/github/stars/mdsuzon-hub/focustube?style=for-the-badge&logo=github&label=Star%20FocusTube" alt="Star FocusTube on GitHub">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/mdsuzon-hub/focustube">
+    <strong>⭐ Star FocusTube on GitHub</strong>
+  </a>
+  — If it helps you learn with fewer distractions, show your support!
+</p>
+
 A privacy-first Chrome extension (Manifest V3) that turns YouTube into a focused learning space: it blocks Shorts, trims distracting recommendations, keeps you on a topic, and measures your viewing time locally.
 
 No account, no backend, no API key, no analytics service. Everything is stored in `chrome.storage.local`.
