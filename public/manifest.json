@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "FocusTube",
+  "version": "1.0.0",
+  "description": "Watch with purpose. Learn without distraction. Blocks Shorts and distractions on YouTube, locally and privately.",
+  "minimum_chrome_version": "110",
+  "icons": { "16": "icons/icon16.png", "48": "icons/icon48.png", "128": "icons/icon128.png" },
+  "action": {
+    "default_title": "FocusTube",
+    "default_popup": "popup.html",
+    "default_icon": { "16": "icons/icon16.png", "48": "icons/icon48.png" }
+  },
+  "options_ui": { "page": "dashboard.html#/settings", "open_in_tab": true },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "permissions": ["storage", "alarms", "notifications"],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'"
+  }
+}
