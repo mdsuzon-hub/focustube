@@ -1,4 +1,4 @@
-# Chrome Web Store readiness checklist
+# Chrome Checklist
 
 - [ ] Final version number in `public/manifest.json`; `npm run package` produces `focustube.zip`.
 - [ ] Manual testing checklist completed on current stable Chrome (and one release back).

@@ -145,10 +145,6 @@ npm run test:e2e     # Playwright (needs `npx playwright install chromium`)
 
 See [docs/INSTALL.md](docs/INSTALL.md), [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md), [docs/MANUAL_TESTING.md](docs/MANUAL_TESTING.md), [docs/STORE_CHECKLIST.md](docs/STORE_CHECKLIST.md) and [docs/ROADMAP.md](docs/ROADMAP.md).
 
-## Screenshots guidance (Web Store)
-
-Capture at 1280×800: (1) YouTube search in Research mode with relevance badges, (2) Study-mode home with the topic panel, (3) popup, (4) dashboard Overview with real data, (5) Insights. Use your own account data only; do not show other people's content or thumbnails you do not have rights to.
-
 ## Support the project
 
 If FocusTube helps you learn with fewer distractions, [star the repo on GitHub](https://github.com/mdsuzon-hub/focustube). ⭐
